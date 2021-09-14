@@ -1,0 +1,77 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-09-13T21:37:33.789Z",
+        "line": 3,
+        "name": "getting pops site up in google search",
+        "description": "",
+        "id": ";getting-pops-site-up-in-google-search",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1502000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I am navigating to the \"google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"google\"",
+                  "offset": 23
+                }
+              ],
+              "location": "steps.PopsStepDer.iAmNavigatingToThe(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 5,
+            "name": "I am inputting \"sports bar with poker\" in search window",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "I am clicking \"search\" button",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "I am clicking \"menu\" button",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@promotion"
+          }
+        ]
+      }
+    ],
+    "name": "",
+    "description": "",
+    "id": "",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/pops.feature",
+    "tags": []
+  }
+]
