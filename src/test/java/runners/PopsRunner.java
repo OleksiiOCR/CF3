@@ -8,7 +8,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(
 
 
-  //  plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json"},
+    plugin = {"pretty", "html:target/cucumber.html", "json:target/cucumber.json"},
     features = "src/test/resources/features/pops.feature",
         glue = {"steps","hooks"}
        // dryRun = true,

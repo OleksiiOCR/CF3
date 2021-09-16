@@ -3,57 +3,152 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-13T21:37:33.789Z",
+        "start_timestamp": "2021-09-16T23:24:30.958Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1209300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp(Scenario)"
+            }
+          }
+        ],
         "line": 3,
         "name": "getting pops site up in google search",
         "description": "",
-        "id": ";getting-pops-site-up-in-google-search",
+        "id": "pops;getting-pops-site-up-in-google-search",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
+            "output": [
+              "2021-09-16 19:24:33 PASS: Successfully navigated to the url"
+            ],
             "result": {
-              "duration": 1502000000,
+              "duration": 2138067200,
               "status": "passed"
             },
             "line": 4,
-            "name": "I am navigating to the \"google\"",
+            "name": "I am navigating to the google",
             "match": {
-              "arguments": [
-                {
-                  "val": "\"google\"",
-                  "offset": 23
-                }
-              ],
-              "location": "steps.PopsStepDer.iAmNavigatingToThe(java.lang.String)"
+              "location": "PopsStepDer.iAmNavigatingToTheGoogle()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 1406155800,
+              "status": "passed"
             },
             "line": 5,
-            "name": "I am inputting \"sports bar with poker\" in search window",
-            "match": {},
+            "name": "I am inputting \"richmond poker\" in search window",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"richmond poker\"",
+                  "offset": 15
+                }
+              ],
+              "location": "PopsStepDer.iAmInputtingInSearchWindow(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 1368814500,
+              "status": "passed"
             },
             "line": 6,
-            "name": "I am clicking \"search\" button",
-            "match": {},
+            "name": "I am clicking \"Pops poker\" link",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Pops poker\"",
+                  "offset": 14
+                }
+              ],
+              "location": "PopsStepDer.iAmClickingLink(String)"
+            },
             "keyword": "Then "
           },
           {
             "result": {
-              "status": "skipped"
+              "duration": 825759200,
+              "status": "passed"
             },
             "line": 7,
-            "name": "I am clicking \"menu\" button",
-            "match": {},
+            "name": "I am clicking \"Website\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Website\"",
+                  "offset": 14
+                }
+              ],
+              "location": "PopsStepDer.iAmClickingButton(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4036471500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Navigating back",
+            "match": {
+              "location": "PopsStepDer.navigatingBack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2286903400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I am clicking \"Directions\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Directions\"",
+                  "offset": 14
+                }
+              ],
+              "location": "PopsStepDer.iAmClickingButton(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3092587400,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Navigating back",
+            "match": {
+              "location": "PopsStepDer.navigatingBack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2792381200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I am clicking \"Facebook\" button",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Facebook\"",
+                  "offset": 14
+                }
+              ],
+              "location": "PopsStepDer.iAmClickingButton(String)"
+            },
             "keyword": "Then "
           }
         ],
@@ -67,9 +162,9 @@
         ]
       }
     ],
-    "name": "",
+    "name": "Pops",
     "description": "",
-    "id": "",
+    "id": "pops",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/pops.feature",
     "tags": []
